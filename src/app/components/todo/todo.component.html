@@ -1,0 +1,17 @@
+<div class="todo">
+  <input 
+    #checkbox
+    class="todo-completed" 
+    type="checkbox"
+    [checked]="todo.completed"
+    (change)="updateTodo(+todo.id, checkbox.checked)"
+  >
+  <p 
+    class="todo-text" 
+    [class.todo-text-completed]="todo.completed"
+  >
+    {{ todo.text }}
+  </p>
+  <small class="todo-date">{{ todo.date | date:'M/d/yy, h:mm' }}</small>
+  <button class="delete-todo-btn" (click)="deleteTodo(+todo.id)">&times;</button>
+</div>

@@ -1,0 +1,28 @@
+{
+  "todos": [
+    {
+      "text": "I want to learn RxJS",
+      "completed": true,
+      "date": "2020-12-26T14:25:57.386Z",
+      "id": 1
+    },
+    {
+      "text": "I want to learn React",
+      "completed": true,
+      "date": "2020-12-26T14:26:05.475Z",
+      "id": 2
+    },
+    {
+      "text": "I want to learn Vue",
+      "completed": false,
+      "date": "2020-12-26T14:26:11.565Z",
+      "id": 3
+    },
+    {
+      "text": "I want to learn Angular",
+      "completed": true,
+      "date": "2020-12-26T14:26:18.915Z",
+      "id": 4
+    }
+  ]
+}

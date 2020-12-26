@@ -1,0 +1,18 @@
+<form class="form">
+  <input 
+    class="add-todo-input" 
+    type="text" 
+    name="text"
+    placeholder="Todo..."
+    [(ngModel)]="text"
+  >
+  <input
+    class="filter-todo-input" 
+    type="text" 
+    name="filter"
+    placeholder="Filter..." 
+    [(ngModel)]="filterStr"
+    (input)="changeHandler()"
+  >
+  <button class="add-todo-btn" (click)="addTodo()">Add Todo</button>
+</form>
